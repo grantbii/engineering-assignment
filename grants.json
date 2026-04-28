@@ -3,17 +3,16 @@
     "id": "mra",
     "name": "Market Readiness Assistance",
     "summary": "Supports overseas market entry and business development activities.",
-    "supports": [
-      "overseas expansion",
-      "market entry",
-      "business development",
-      "overseas marketing"
-    ],
     "applicant_type": ["sme"],
     "employee_count_min": 1,
     "employee_count_max": null,
     "revenue_band": ["under_100m"],
-    "business_goals": ["overseas_expansion"],
+    "business_objectives": [
+      "overseas_expansion",
+      "market_entry",
+      "business_development",
+      "overseas_marketing"
+    ],
     "requires_local_entity": true,
     "requires_new_market": true,
     "notes": [
@@ -25,17 +24,16 @@
     "id": "edg_automation",
     "name": "Enterprise Development Grant - Automation",
     "summary": "Supports projects that improve productivity through process redesign and automation.",
-    "supports": [
-      "automation",
-      "process improvement",
-      "productivity",
-      "operational efficiency"
-    ],
     "applicant_type": ["sme"],
     "employee_count_min": 1,
     "employee_count_max": null,
     "revenue_band": ["under_100m"],
-    "business_goals": ["automation", "process_improvement"],
+    "business_objectives": [
+      "automation",
+      "process_improvement",
+      "productivity",
+      "operational_efficiency"
+    ],
     "requires_local_entity": true,
     "requires_new_market": false,
     "notes": [
@@ -47,17 +45,16 @@
     "id": "edg_npd",
     "name": "Enterprise Development Grant - New Product Development",
     "summary": "Supports the development and commercialization of new products or solutions.",
-    "supports": [
-      "new product development",
-      "innovation",
-      "commercialization",
-      "r&d"
-    ],
     "applicant_type": ["sme"],
     "employee_count_min": 1,
     "employee_count_max": null,
     "revenue_band": ["under_100m"],
-    "business_goals": ["new_product_development", "innovation"],
+    "business_objectives": [
+      "new_product_development",
+      "innovation",
+      "commercialization",
+      "r&d"
+    ],
     "requires_local_entity": true,
     "requires_new_market": false,
     "notes": [
@@ -69,17 +66,16 @@
     "id": "ccp",
     "name": "Career Conversion Programme",
     "summary": "Supports structured reskilling of new or existing employees into redesigned roles.",
-    "supports": [
-      "hiring",
-      "reskilling",
-      "workforce transformation",
-      "job redesign"
-    ],
     "applicant_type": ["sme", "non_sme"],
     "employee_count_min": 1,
     "employee_count_max": null,
     "revenue_band": ["any"],
-    "business_goals": ["hiring", "reskilling", "job_redesign"],
+    "business_objectives": [
+      "hiring",
+      "reskilling",
+      "workforce_transformation",
+      "job_redesign"
+    ],
     "requires_local_entity": true,
     "requires_new_market": false,
     "notes": [
@@ -91,20 +87,15 @@
     "id": "ctc",
     "name": "Company Training Committee Grant",
     "summary": "Supports workforce transformation tied to business transformation and employee outcomes.",
-    "supports": [
-      "workforce transformation",
-      "training",
-      "job redesign",
-      "business transformation"
-    ],
     "applicant_type": ["sme", "non_sme"],
     "employee_count_min": 30,
     "employee_count_max": null,
     "revenue_band": ["any"],
-    "business_goals": [
+    "business_objectives": [
       "workforce_transformation",
       "training",
       "job_redesign",
+      "business_transformation",
       "automation"
     ],
     "requires_local_entity": true,
@@ -118,17 +109,16 @@
     "id": "dlp",
     "name": "Digital Leaders Programme",
     "summary": "Supports companies building a digital team and executing substantial digital transformation initiatives.",
-    "supports": [
-      "digital transformation",
-      "digital team hiring",
-      "new digital capability",
-      "software development"
-    ],
     "applicant_type": ["sme"],
     "employee_count_min": 5,
     "employee_count_max": null,
     "revenue_band": ["under_100m"],
-    "business_goals": ["digital_transformation", "software_build", "hiring"],
+    "business_objectives": [
+      "digital_transformation",
+      "hiring",
+      "new_digital_capability",
+      "software_development"
+    ],
     "requires_local_entity": true,
     "requires_new_market": false,
     "notes": [
@@ -137,20 +127,19 @@
     ]
   },
   {
-    "id": "standards",
+    "id": "edg_standards",
     "name": "Enterprise Development Grant - Standards Adoption",
     "summary": "Supports adoption of recognised standards or certifications to improve capability and market readiness.",
-    "supports": [
-      "standards adoption",
-      "certification",
-      "compliance",
-      "market readiness"
-    ],
     "applicant_type": ["sme"],
     "employee_count_min": 1,
     "employee_count_max": null,
     "revenue_band": ["under_100m"],
-    "business_goals": ["certification", "compliance", "market_readiness"],
+    "business_objectives": [
+      "standards_adoption",
+      "certification",
+      "compliance",
+      "market_readiness"
+    ],
     "requires_local_entity": true,
     "requires_new_market": false,
     "notes": [
@@ -162,17 +151,16 @@
     "id": "eis",
     "name": "Enterprise Innovation Scheme",
     "summary": "Provides enhanced support for qualifying innovation and capability development activities.",
-    "supports": [
-      "innovation",
-      "r&d",
-      "capability development",
-      "technology development"
-    ],
     "applicant_type": ["sme", "non_sme"],
     "employee_count_min": 1,
     "employee_count_max": null,
     "revenue_band": ["any"],
-    "business_goals": ["innovation", "r&d", "technology_development"],
+    "business_objectives": [
+      "innovation",
+      "r&d",
+      "capability_development",
+      "technology_development"
+    ],
     "requires_local_entity": true,
     "requires_new_market": false,
     "notes": [
